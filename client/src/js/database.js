@@ -23,7 +23,7 @@ const initdb = async () =>
 */
 export const putDb = async (content) => {
   // First, create a variable, and set it to asyncronously await the opening of the database. Replace the items in all caps
-  
+ 
   // TODO: Change YOUR_OPEN_DB_VAR to whatever variable name you wanT. Note that you'll then need to change any other occcurences of YOUR_OPEN_DB_VAR to the same variable name.
   const YOUR_OPEN_DB_VAR = await openDB(DB_NAME, 1);
 
